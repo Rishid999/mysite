@@ -5,6 +5,7 @@ body{
 }
 .container p{
     color: aqua;
+    background-color: aqua;
 
 
 }
@@ -21,6 +22,45 @@ body{
 #cont-1{
 
 }
-.main-text{
+.main-text {
 
+}
+.input-form {
+    width: 200px;
+    margin: 100px;
+    padding: 20px;
+    border: solid;
+    color: chocolate;
+    border-radius: 5px;
+    background: linear-gradient( rgb(245, 201, 197), rgb(197, 108, 179) )
+}
+
+
+.input-group label {
+
+}
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: solid 1px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: aliceblue;
+
+}
+.input-form input:focus {
+    border-color: aliceblue;
+    outline: none;
+}
+.input-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+
+
+}
+.input-form button:hover {
+    background: rgb(223, 215, 231);
 }
